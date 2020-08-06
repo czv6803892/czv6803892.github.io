@@ -10,7 +10,8 @@
   "repository": "git@github.com:czv6803892/czv6803892.github.io.git/sxqBlog",
   "scripts": {
     "serve": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "license": "MIT",
   "devDependencies": {

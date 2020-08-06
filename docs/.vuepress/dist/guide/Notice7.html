@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>开发踩坑记录7月 | sxq&#39;s blog</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="none">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="preload" href="/assets/css/0.styles.4a6b652e.css" as="style"><link rel="preload" href="/assets/js/app.51691aa3.js" as="script"><link rel="preload" href="/assets/js/2.f65fa5c2.js" as="script"><link rel="preload" href="/assets/js/11.507e1554.js" as="script"><link rel="prefetch" href="/assets/js/10.471eb5c6.js"><link rel="prefetch" href="/assets/js/12.29f634c0.js"><link rel="prefetch" href="/assets/js/13.12a5641c.js"><link rel="prefetch" href="/assets/js/14.40b30dde.js"><link rel="prefetch" href="/assets/js/15.dfa8a983.js"><link rel="prefetch" href="/assets/js/16.976ff8d6.js"><link rel="prefetch" href="/assets/js/17.4c08933a.js"><link rel="prefetch" href="/assets/js/3.a5d49334.js"><link rel="prefetch" href="/assets/js/4.635bf82d.js"><link rel="prefetch" href="/assets/js/5.5cb9a666.js"><link rel="prefetch" href="/assets/js/6.0177d46b.js"><link rel="prefetch" href="/assets/js/7.801df113.js"><link rel="prefetch" href="/assets/js/8.092ce354.js"><link rel="prefetch" href="/assets/js/9.0a225a40.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.4a6b652e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">sxq's blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  技术相关
+</a></div><div class="nav-item"><a href="/readingNotes/" class="nav-link">
+  读书笔记
+</a></div><div class="nav-item"><a href="https://github.com/czv6803892/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  技术相关
+</a></div><div class="nav-item"><a href="/readingNotes/" class="nav-link">
+  读书笔记
+</a></div><div class="nav-item"><a href="https://github.com/czv6803892/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>目录</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/" aria-current="page" class="sidebar-link">前端相关汇总</a></li><li><a href="/guide/Notice7.html" aria-current="page" class="active sidebar-link">开发踩坑记录7月</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/Notice7.html#_7-21" class="sidebar-link">7.21</a></li><li class="sidebar-sub-header"><a href="/guide/Notice7.html#_7-22" class="sidebar-link">7.22</a></li><li class="sidebar-sub-header"><a href="/guide/Notice7.html#_7-23" class="sidebar-link">7.23</a></li><li class="sidebar-sub-header"><a href="/guide/Notice7.html#_7-24" class="sidebar-link">7.24</a></li><li class="sidebar-sub-header"><a href="/guide/Notice7.html#_7-28" class="sidebar-link">7.28</a></li></ul></li><li><a href="/guide/Notice8.html" class="sidebar-link">开发踩坑记录8月</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="开发踩坑记录7月"><a href="#开发踩坑记录7月" class="header-anchor">#</a> 开发踩坑记录7月</h1> <blockquote><p>基于中台idg框架开发踩坑记录，包括页面结构梳理，项目结构，组件使用，命名规范等等</p></blockquote> <h2 id="_7-21"><a href="#_7-21" class="header-anchor">#</a> 7.21</h2> <h3 id="_1、get-store"><a href="#_1、get-store" class="header-anchor">#</a> 1、get || $store</h3> <h4 id="tips-get-set-要配合使用，否则会捕获报错-property-xxx-has-no-setter"><a href="#tips-get-set-要配合使用，否则会捕获报错-property-xxx-has-no-setter" class="header-anchor">#</a> tips:  get&amp;set  要配合使用，否则会捕获报错‘property xxx has no setter’</h4> <p>example:</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">public</span> <span class="token keyword">get</span> <span class="token function">statusName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>$store<span class="token punctuation">.</span>state<span class="token punctuation">.</span>statusName
+<span class="token punctuation">}</span>
+<span class="token keyword">public</span> <span class="token keyword">set</span> <span class="token function">statusName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>statusName
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="_2、prop命名规范"><a href="#_2、prop命名规范" class="header-anchor">#</a> 2、prop命名规范</h3> <h4 id="因为html5对于prop的大小写不敏感，所以prop属性命名时要用kebab-case命名法"><a href="#因为html5对于prop的大小写不敏感，所以prop属性命名时要用kebab-case命名法" class="header-anchor">#</a> 因为HTML5对于prop的大小写不敏感，所以prop属性命名时要用kebab-case命名法</h4> <p>example:</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token comment">// father</span>
+<span class="token operator">&lt;</span>father status<span class="token operator">-</span>name<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>name<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+<span class="token comment">// son</span>
+@<span class="token function">Prop</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">public</span> statusName<span class="token operator">:</span><span class="token builtin">string</span>
+
+</code></pre></div><p style="color:red;">错误示范：statusName,status...</p> <h3 id="_3、emit使用范例"><a href="#_3、emit使用范例" class="header-anchor">#</a> 3、emit使用范例</h3> <p>example:</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token comment">// son</span>
+<span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$emit</span><span class="token punctuation">(</span>refresh<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// father</span>
+<span class="token operator">&lt;</span>father on<span class="token operator">-</span>refresh<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>handleRefresh<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+</code></pre></div><h3 id="_4、如无必要，不做拆分"><a href="#_4、如无必要，不做拆分" class="header-anchor">#</a> 4、如无必要，不做拆分</h3> <p>例如project-management训练，page中不要包含太多组件，导致传值复杂化。但在必要的业务场景，需要依照业务要求进行组件的拆分以减少代码量并提升可读性。</p> <h3 id="_5、对于prop传入的数据，需要watch实现父子数据的同步更新"><a href="#_5、对于prop传入的数据，需要watch实现父子数据的同步更新" class="header-anchor">#</a> 5、对于prop传入的数据，需要watch实现父子数据的同步更新</h3> <p>example:</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token comment">// father</span>
+<span class="token operator">&lt;</span>fater status<span class="token operator">-</span>name<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>statusName<span class="token punctuation">}</span><span class="token operator">/</span><span class="token operator">&gt;</span>
+<span class="token comment">//son</span>
+@<span class="token function">Prop</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">public</span> statusName<span class="token operator">:</span><span class="token builtin">string</span><span class="token punctuation">;</span>
+@<span class="token function">Watch</span><span class="token punctuation">(</span><span class="token string">'statusName'</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token function">statusNameChange</span><span class="token punctuation">(</span><span class="token parameter">val</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>statusName <span class="token operator">=</span> val<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="_7-22"><a href="#_7-22" class="header-anchor">#</a> 7.22</h2> <h3 id="开发拖拽组件有感"><a href="#开发拖拽组件有感" class="header-anchor">#</a> 开发拖拽组件有感</h3> <p>今日开发拖拽组件，使用Vue Demo迁移至中台TS项目中，发现很多报错我目前无法解决，询问代哥得知，在今后如果出现iview无法直接实现的需求，尽可能去寻找第三方开源Vue组件库可以满足需求的组件，并引入使用，避免自己写组件，导致代码不可能。</p> <h3 id="敢于重构代码"><a href="#敢于重构代码" class="header-anchor">#</a> 敢于重构代码</h3> <p>对于今天再次对project-management的开发工作，总结出了：对于内部需要参数频繁传递的组件，在保证代码行数不太多，可读性尚可的情况下，不要再去进行拆分。</p> <h2 id="_7-23"><a href="#_7-23" class="header-anchor">#</a> 7.23</h2> <h3 id="only-do-what-i-should-do"><a href="#only-do-what-i-should-do" class="header-anchor">#</a> Only Do What I Should Do</h3> <p>为保持低代码量，高代码可读性和可维护性，不做需求之外的事，但应保留入口。不写无用组件，方法，如无必要不要用Vuex。<br> <code>Vuex一句话总结:</code>用prop，emit做不了或做起来太繁琐的事情，采用vuex做（store）。<br><br>
+场景一：组件多层嵌套，且兄弟组件需要传参。<br>
+场景二：多个组件共享同一个状态 <br></p> <h3 id="vuex核心概念"><a href="#vuex核心概念" class="header-anchor">#</a> Vuex核心概念</h3> <p><code>Store</code>：Vuex 使用一个 Store 对象管理应用的状态，一个 Store 包括 State, Getter, Mutation, Action 四个属性。<br> <code>State</code>：状态管理的数据源（和Vue的Data有点类似）<br> <code>Getter</code>：将State进行过滤后输出。(不能改变State，有点类似SQL的Select语句)
+<code>Mutation</code>：改变State的唯一途径（严格模式下），只能同步操作。</p> <div class="language-js extra-class"><pre class="language-js"><code>state<span class="token operator">:</span><span class="token punctuation">{</span>
+  isShowModal<span class="token operator">:</span>boolean <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+mutation<span class="token operator">:</span><span class="token punctuation">{</span>
+  <span class="token function">showModal</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>isShowModal <span class="token operator">=</span> <span class="token boolean">true</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 组件调用</span>
+
+<span class="token comment">// 获取</span>
+<span class="token keyword">public</span> <span class="token keyword">get</span> <span class="token function">isShowModal</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>$store<span class="token punctuation">.</span>stae<span class="token punctuation">.</span>isShowModal
+<span class="token punctuation">}</span>
+<span class="token comment">// 改变,可传参</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>$store<span class="token punctuation">.</span><span class="token function">commit</span><span class="token punctuation">(</span><span class="token string">'showModal'</span><span class="token punctuation">,</span>params<span class="token punctuation">)</span>
+</code></pre></div><p><code>Action</code>:对State的异步操作可以（暂时没用过）
+<code>Module</code>：当Store对象过于庞大时，可根据具体的业务需求分为多个Module/</p> <h3 id="第三方库vuedraggable"><a href="#第三方库vuedraggable" class="header-anchor">#</a> 第三方库vuedraggable</h3> <p>个人文档整理：（暂无）</p> <h2 id="_7-24"><a href="#_7-24" class="header-anchor">#</a> 7.24</h2> <h3 id="webpack相关"><a href="#webpack相关" class="header-anchor">#</a> webpack相关</h3> <p>使用vuedraggable遇到的问题<br>
+按照教程import并在组件中引入</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">import</span> draggable <span class="token keyword">from</span> <span class="token string">'vuedraggable'</span>
+@<span class="token function">Component</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  depends<span class="token operator">:</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  components<span class="token operator">:</span>draggable
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>页面报错：</p><div style="color:red;">TypeError: cannot assign to read only property exports of obejct</div><p></p> <p>依赖引入导出方法</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// ES6</span>
+<span class="token keyword">import</span> xxx <span class="token keyword">from</span> <span class="token string">'../xxx'</span>
+<span class="token keyword">export</span> xxx
+
+<span class="token comment">// CommonJS</span>
+<span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'../xx'</span><span class="token punctuation">)</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre></div><p>由于WebPack2不允许两种写法混合使用，所以在项目中引入第三方依赖的时候可能会出现报错
+解决方法:<br>
+1、依赖改成统一写法<br>
+2、babel config</p> <div class="language-js extra-class"><pre class="language-js"><code>typeSource<span class="token operator">=</span><span class="token string">'unambiguous'</span><span class="token comment">//  script module(默认) unambiguous(遇到require识别成commonjs，遇到import识别成ES6)</span>
+</code></pre></div><p>commonJs 和ES6 在此处皆为模块化标准</p> <h3 id="数组去重"><a href="#数组去重" class="header-anchor">#</a> 数组去重</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">]</span>
+<span class="token keyword">const</span> newArr <span class="token operator">=</span> <span class="token operator">...</span><span class="token keyword">new</span> <span class="token class-name">Set</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span>
+consloe<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>newArr<span class="token punctuation">)</span><span class="token comment">// [1,2,3,4,5]</span>
+</code></pre></div><h3 id="git-相关"><a href="#git-相关" class="header-anchor">#</a> git 相关</h3> <div class="language- extra-class"><pre class="language-text"><code>git changelog =&gt; 日志
+git rebase =&gt; 合并分支，修改时间节点合并至线性时间线
+git merge =&gt; 保留所有操作记录，对修改时间节点不做操作
+</code></pre></div><h2 id="_7-28"><a href="#_7-28" class="header-anchor">#</a> 7.28</h2> <h3 id="业务和接口不要耦合"><a href="#业务和接口不要耦合" class="header-anchor">#</a> 业务和接口不要耦合</h3> <blockquote><p>在写数据结构(interface)的时候，接口请求和返回的数据结构和页面接口不要耦合。</p></blockquote> <h3 id="antv-g6"><a href="#antv-g6" class="header-anchor">#</a> @antv/g6</h3> <blockquote><p>官方文档：https://antv.vision/zh/</p></blockquote> <p>antv相关：TODO.........</p> <h3 id="vue-路由相关"><a href="#vue-路由相关" class="header-anchor">#</a> Vue 路由相关</h3> <h4 id="传参"><a href="#传参" class="header-anchor">#</a> 传参</h4> <p>1、第一种方法(页面刷新数据不会丢失)</p> <div class="language-tsx extra-class"><pre class="language-tsx"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">onClick</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">insurance</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">查看详情</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token keyword">public</span> <span class="token function">insurance</span><span class="token punctuation">(</span><span class="token parameter">id</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>$router<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    path<span class="token operator">:</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">/particulars/</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>id<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token comment">// 也可以用name匹配，在path后添加参数，页面刷新参数就不会丢失</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>这样参数会直接跟在路由后面
+需要对应路由配置：</p> <div class="language-tsx extra-class"><pre class="language-tsx"><code><span class="token punctuation">{</span>
+  path<span class="token operator">:</span><span class="token string">'/particulars/:id'</span><span class="token punctuation">,</span>
+  name<span class="token operator">:</span><span class="token string">'particulars'</span><span class="token punctuation">,</span>
+  component<span class="token operator">:</span> particulars<span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>在组件中想要获取参数：</p> <div class="language-tsx extra-class"><pre class="language-tsx"><code><span class="token keyword">this</span><span class="token punctuation">.</span>$route<span class="token punctuation">.</span>params<span class="token punctuation">.</span>id
+</code></pre></div><p>3、第二种方法 path匹配路由，query传递参数</p> <div class="language-tsx extra-class"><pre class="language-tsx"><code><span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">'/particulars'</span><span class="token punctuation">,</span>
+    name<span class="token operator">:</span> <span class="token string">'particulars'</span><span class="token punctuation">,</span>
+    component<span class="token operator">:</span> particulars
+   <span class="token punctuation">}</span>
+<span class="token function">insurance</span><span class="token punctuation">(</span><span class="token parameter">id</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>$router<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    path<span class="token operator">:</span><span class="token string">'particulars'</span><span class="token punctuation">,</span>
+    query<span class="token operator">:</span><span class="token punctuation">{</span>
+      id<span class="token operator">:</span>id
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>获取参数:</p> <div class="language-tsx extra-class"><pre class="language-tsx"><code><span class="token keyword">this</span><span class="token punctuation">.</span>$route<span class="token punctuation">.</span>query<span class="token punctuation">.</span>id
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/guide/" class="prev router-link-active">
+        前端相关汇总
+      </a></span> <span class="next"><a href="/guide/Notice8.html">
+        开发踩坑记录8月
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.51691aa3.js" defer></script><script src="/assets/js/2.f65fa5c2.js" defer></script><script src="/assets/js/11.507e1554.js" defer></script>
+  </body>
+</html>

@@ -17,12 +17,12 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: '指引',
+        text: '技术相关',
         link: '/guide/',
       },
       {
-        text: '配置',
-        link: '/config/'
+        text: '读书笔记',
+        link: '/readingNotes/'
       },
       {
         text: 'GitHub',
@@ -32,14 +32,27 @@ module.exports = {
     sidebar: {
       '/guide/': [
         {
-          title: 'Guide',
+          title: '目录',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'Notice7',
+            'Notice8',
           ]
         }
       ],
+      '/readingNotes/':[
+        {
+          title: '目录',
+          collapsable: false,
+          children: [
+            '',
+            'richDad',
+            'dogMoney',
+            'codeComplete',
+          ]
+        }
+      ]
     }
   },
 

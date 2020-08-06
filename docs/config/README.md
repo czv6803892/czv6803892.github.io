@@ -2,7 +2,7 @@
 sidebar: auto
 ---
 
-# Config
+# 读书笔记
 
 ## foo
 
