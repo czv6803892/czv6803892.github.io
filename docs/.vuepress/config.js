@@ -1,3 +1,9 @@
+/*
+ * @Author: Billy-S
+ * @Description: 
+ * @Date: 2020-07-23 21:43:41
+ * @LastEditTime: 2020-10-09 18:06:58
+ */
 const { description } = require('../../package')
 
 module.exports = {
@@ -25,6 +31,10 @@ module.exports = {
         link: '/readingNotes/'
       },
       {
+        text: '生活杂谈',
+        link: '/talk/'
+      },
+      {
         text: 'GitHub',
         link: 'https://github.com/czv6803892/'
       }
@@ -38,6 +48,9 @@ module.exports = {
             '',
             'Notice7',
             'Notice8',
+            'Notice9',
+            'Notice10',
+            'Storage',
           ]
         }
       ],
@@ -49,7 +62,22 @@ module.exports = {
             '',
             'richDad',
             'dogMoney',
+            'dogMoney2',
             'codeComplete',
+            'ecnomicMicro',
+          ]
+        }
+      ],
+      '/talk/':[
+        {
+          title: '目录',
+          collapsable: false,
+          children:[
+            '',
+            'BussinessFlow',
+            'newCodeRecord',
+            'Month8',
+            'Month9',
           ]
         }
       ]
