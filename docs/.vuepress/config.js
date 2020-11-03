@@ -2,7 +2,7 @@
  * @Author: Billy-S
  * @Description: 
  * @Date: 2020-07-23 21:43:41
- * @LastEditTime: 2020-10-09 18:06:58
+ * @LastEditTime: 2020-11-02 15:12:49
  */
 const { description } = require('../../package')
 
@@ -50,6 +50,8 @@ module.exports = {
             'Notice8',
             'Notice9',
             'Notice10',
+            'Notice11',
+            'Vue3Tips',
             'Storage',
           ]
         }
@@ -78,6 +80,7 @@ module.exports = {
             'newCodeRecord',
             'Month8',
             'Month9',
+            'Month10',
           ]
         }
       ]
