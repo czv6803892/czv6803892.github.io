@@ -3,10 +3,10 @@ home: true
 heroImage: /image/logo.jpg
 heroText: '沉淀'
 tagline: 2020❤️1.18
-actionText: 进入
+actionText: Enter
 actionLink: /guide/
 features:
-- title: 前端Farming
+- title: 技术日志
   details: 新技术自整理文档，中台开发踩坑记录
 - title: 读书笔记
   details: 个人读书笔记整理

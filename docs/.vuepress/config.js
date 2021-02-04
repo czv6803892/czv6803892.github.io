@@ -2,7 +2,7 @@
  * @Author: Billy-S
  * @Description: 
  * @Date: 2020-07-23 21:43:41
- * @LastEditTime: 2020-11-02 15:12:49
+ * @LastEditTime: 2021-02-04 11:00:48
  */
 const { description } = require('../../package')
 
@@ -51,6 +51,7 @@ module.exports = {
             'Notice9',
             'Notice10',
             'Notice11',
+            'Notice12',
             'Vue3Tips',
             'Storage',
           ]
@@ -62,6 +63,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'imageHttp',
             'richDad',
             'dogMoney',
             'dogMoney2',
@@ -76,11 +78,13 @@ module.exports = {
           collapsable: false,
           children:[
             '',
+            'lifeFlow',
             'BussinessFlow',
             'newCodeRecord',
             'Month8',
             'Month9',
             'Month10',
+            'Month11',
           ]
         }
       ]
