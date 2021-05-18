@@ -1,3 +1,9 @@
+/*
+ * @Author: Billy-S
+ * @Description: 
+ * @Date: 2020-07-23 21:43:41
+ * @LastEditTime: 2021-05-17 13:51:06
+ */
 const { description } = require('../../package')
 
 module.exports = {
@@ -75,6 +81,7 @@ module.exports = {
           collapsable: false,
           children:[
             '',
+            'coinMistic',
             'tradeFlow',
             'lifeFlow',
             'BussinessFlow',
