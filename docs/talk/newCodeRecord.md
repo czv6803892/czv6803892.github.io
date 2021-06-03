@@ -29,3 +29,35 @@ length      返回浏览器历史列表中的URL数量
 back()      加载 history 列表中的前一个URL  
 forward() 加载 history 列表中的下一个URL  
 go()         加载history列表中的某个具体页面。  
+
+
+# 2021.6.3 leetcode
+### 动态规划基础
+礼物的最大价值  
+```
+输入: 
+[
+  [1,3,1],
+  [1,5,1],
+  [4,2,1]
+]
+输出: 12
+解释: 路径 1→3→5→2→1 可以拿到最多价值的礼物
+```
+
+```
+if (grid.length === 0 || grid[0].length === 0) return 0;
+    let rowLimit = grid.length,
+        colLimit = grid[0].length;
+    
+    for (let row = 0; row < rowLimit; row++) {
+      for (let col = 0; col < colLimit; col++) {
+        let left = col - 1 < 0 ? 0 : grid[row][col - 1],
+            top = row - 1 < 0 ? 0 : grid[row - 1][col];
+
+        grid[row][col] += Math.max(left, top);
+      }
+    }
+    
+    return grid[rowLimit - 1][colLimit - 1];
+```
