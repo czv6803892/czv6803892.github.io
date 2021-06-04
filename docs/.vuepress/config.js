@@ -2,7 +2,7 @@
  * @Author: Billy-S
  * @Description: 
  * @Date: 2020-07-23 21:43:41
- * @LastEditTime: 2021-06-03 09:37:42
+ * @LastEditTime: 2021-06-04 10:41:26
  */
 const { description } = require('../../package')
 
@@ -46,6 +46,8 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'algorithm',
+            'newcodeRecord',
             'Notice7',
             'Notice8',
             'Notice9',
@@ -57,7 +59,7 @@ module.exports = {
             'NoticeNew2',
             'NoticeNew4',
             'NoticeNew5',
-            'Skill'
+            'Skill',
           ]
         }
       ],
@@ -83,10 +85,6 @@ module.exports = {
           children:[
             '',
             'coinMistic',
-            'lifeFlow',
-            'BussinessFlow',
-            'salaryFlow',
-            'newCodeRecord',
             'Month8',
             'Month9',
             'Month10',
