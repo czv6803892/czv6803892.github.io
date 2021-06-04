@@ -2,7 +2,7 @@
  * @Author: Billy-S
  * @Description: 
  * @Date: 2020-07-23 21:43:41
- * @LastEditTime: 2021-06-04 10:41:26
+ * @LastEditTime: 2021-06-04 13:45:54
  */
 const { description } = require('../../package')
 
@@ -46,6 +46,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'NoticeNew2021',
             'algorithm',
             'newcodeRecord',
             'Notice7',
@@ -56,9 +57,6 @@ module.exports = {
             'Notice12',
             'Vue3Tips',
             'Storage',
-            'NoticeNew2',
-            'NoticeNew4',
-            'NoticeNew5',
             'Skill',
           ]
         }
