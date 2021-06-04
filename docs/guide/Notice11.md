@@ -25,10 +25,6 @@
 子孙：以某节点为根的子树中任一节点都称为该节点的子孙；  
 森林：由m（m>=0）棵互不相交的树的集合称为森林。  
 
-
-### k8s && pod
-
-
 ### CI/CD(持续集成/持续交付)  
 Continuous Intergration/Continous Delivery
 以及

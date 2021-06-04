@@ -144,3 +144,6 @@ function showTop() {
 }
 window.onscroll = throttle(showTop, 1000);
 ```
+
+
+#### 箭头函数改变this指向
